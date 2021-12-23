@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Practical</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- font awesome link -->
+    <link type="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- External Css file -->
+    <link rel="stylesheet" href="css/sty.css">
+</head>
+<body>
+  
+<!-- header section starts     -->
+
+<header>
+<div class="main">
+  <nav class="navbar navbar-expand-sm bg-primary navbar-dark">
+    <div class="container-fluid-flex">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mynavbar">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item">
+            <a class="navbar-brand" href="#" id="title" ><b>Flipart</b><br><i id="title2" >Explore <i class="color">plus</i><img id="img1" src="img/logo.jpg" ></i></a>
+          </li>
+          <li class="nav-item-center" id="search">
+            <a class="nav-link" href="#"><input class="form-control me-2" type="text" placeholder="Search for products,brand and all"></a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" href="#"> <label for="search" class="fa fa-search" id="cart"></label></a>
+          </li>
+         
+          <li class="nav-item ">
+            <a class="nav-link" href="#"><button class="btn btn-light" type="button" id="btn"><b>Login</b></button></a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown"id="more" href="#">More</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Link 1</a></li>
+              <li><a class="dropdown-item" href="#">Link 2</a></li>
+              <li><a class="dropdown-item" href="#">Link 3</a></li>
+            </ul>
+          </li>
+           <li class="nav-item">
+            <a class="nav-link" id="cart"><i class="fa fa-shopping-cart"></i>Cart</a>
+            </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+   
+</header>
+
+<section class="container mt-3" id="con1">
+    <div class="container">
+        <div class="row">
+          <div class="col">
+            <div class="card-body">
+                <h5 class="card-title"><img src="img/offer.jpg" id="img2"></h5>
+                <p class="card-text"><b>Top Offers</b></p>
+              </div>
+          </div>
+          <div class="col">
+            <div class="card-body">
+                <h5 class="card-title"><img src="img/glossary.jpeg" id="img2"></h5>
+                <p class="card-text" ><b>Glossary</b></p>
+              </div>
+          </div>
+          <div class="col">
+            <div class="card-body">
+                <h5 class="card-title"><img src="img/mobiles.jpeg" id="img2"></h5>
+                <p class="card-text"><b>Mobiles</b></p>
+              </div>
+          </div>
+          <div class="col">
+            <div class="card-body">
+                <h5 class="card-title"><img src="img/fashion.jpg" id="img2"></h5>
+                <div class="dropdown">
+                    <a class="btn btn dropdown-toggle" href="#" data-bs-toggle="dropdown" > <b>Fashion</b></a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Link 1</a></li>
+                      <li><a class="dropdown-item" href="#">Link 2</a></li>
+                      <li><a class="dropdown-item" href="#">Link 3</a></li>
+                    </ul>
+                    </div>
+              </div>
+          </div>
+          <div class="col">
+            <div class="card-body">
+                <h5 class="card-title"><img src="img/Electronics.png" id="img2"></h5>
+                    <div class="dropdown">
+                        <a class="btn btn dropdown-toggle" href="#" data-bs-toggle="dropdown" >
+                          <b>Electronics</b>
+                        </a>
+                        <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Link 1</a></li>
+                        <li><a class="dropdown-item" href="#">Link 2</a></li>
+                        <li><a class="dropdown-item" href="#">Link 3</a></li>
+                      </ul>
+                      </div>
+              </div>
+          </div>
+          <div class="col">
+            <div class="card-body">
+                <h5 class="card-title"><img src="img/home.jpg" id="img2"></h5>
+                <div class="dropdown">
+                    <a class="btn btn dropdown-toggle" href="#" data-bs-toggle="dropdown" >
+                       <b>Home</b></a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Link 1</a></li>
+                    <li><a class="dropdown-item" href="#">Link 2</a></li>
+                    <li><a class="dropdown-item" href="#">Link 3</a></li>
+                  </ul></div>
+              </div>
+          </div>
+          <div class="col">
+            <div class="card-body">
+                <h5 class="card-title"><img src="img/Home_Applience.jpg" id="img2"></h5>
+                <div class="dropdown">
+                    <a class="btn btn dropdown-toggle" href="#" data-bs-toggle="dropdown" >
+                        <b>Appliances</b></a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Link 1</a></li>
+                    <li><a class="dropdown-item" href="#">Link 2</a></li>
+                    <li><a class="dropdown-item" href="#">Link 3</a></li>
+                  </ul></div>
+              </div>
+          </div>
+          <div class="col">
+            <div class="card-body">
+                <h5 class="card-title"><img src="img/travel.jpg" id="img2"></h5>
+                <p class="card-text"><b>Travel</b></p>
+              </div>
+          </div>
+          <div class="col">
+            <div class="card-body">
+                <h5 class="card-title"><img src="img/beauty.jpg" id="img2"></h5>
+                <div class="dropdown">
+                    <a class="btn btn dropdown-toggle" href="#" data-bs-toggle="dropdown" >
+                        <b>Beauty,Toy &More</b></a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Link 1</a></li>
+                    <li><a class="dropdown-item" href="#">Link 2</a></li>
+                    <li><a class="dropdown-item" href="#">Link 3</a></li>
+                  </ul></div>
+              </div>
+          </div>
+          
+        </div>
+      </div>
+</section>
+
+ <section>
+    <div class="container">
+        <div class="row">
+            <div class="card-header" id="deal"><b>Deal of the day</b> <i class="fa fa-clock-o" aria-hidden="true"></i> 22:07:36 Left
+            <button type="submit" class="btn1" >View All</button>
+            </div>
+             
+            <div class="col">
+            <div class="card-body">
+                <h5 class="card-title"><img src="img/watch.jpg" id="img3"></h5>
+                <p class="card-text"><h5><strong>Casino,Fastract,Sonata...</strong></h5>
+                <p class="card-text"><h5 id="text1">Upto 80%+Extra 10%Off</h5></p>
+                <p class="card-text" id="text2">Knockout Deals!</p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card-body">
+                <h5 class="card-title"><img src="img/home_temple.jpg" id="img3"></h5>
+                <p class="card-text"><h5><strong>Home Temples & more</strong></h5>
+                <p class="card-text"><h5 id="text1">Extra 100 %Off </h5></p>
+                <p class="card-text" id="text2">Space Saving furniture </p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card-body">
+                <h5 class="card-title"><img src="img/cases.jpg" id="img3"></h5>
+                <p class="card-text"><h5><strong>Premium tablet cases</strong></h5>
+                <p class="card-text" ><h5 id="text1"> Extra 10% Off </h5></p>
+                <p class="card-text" id="text2">For All Top Models</p>
+              </div>
+          </div>
+          <div class="col">
+            <div class="card-body">
+                <h5 class="card-title"><img src="img/home_decor.jpeg" id="img3"></h5>   
+                <p class="card-text"><h5><strong>Best Of Home Decor</strong></h5>
+                <p class="card-text"><h5 id="text1">From ₹79</h5></p>
+                <p class="card-text" id="text2">Lowest Price Ever</p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card-body">
+                <h5 class="card-title"><img src="img/mentonaut.jpg" id="img3"></h5>
+                <p class="card-text"><h5><strong>Metronaut, Provogue & ...</strong></h5>
+                <p class="card-text"><h5 id="text1">From ₹249+Extra 10%Off</h5></p>
+                <p class="card-text" id="text2">Jackets,Dresses & More</p>
+              </div>
+          </div>
+          <div class="col">
+            <div class="card-body">
+                <h5 class="card-title"><img src="img/lava.jpg" id="img3"></h5>
+                <p class="card-text"><h5><strong>LAVA A1500</strong></h5>
+                <p class="card-text"><h5 id="text1">Flat ₹830 off</h5></p>
+                <p class="card-text" id="text2">  Now ₹999</p> 
+              </div>
+          </div>
+          <div class="col">
+            <div class="card-body">
+                <h5 class="card-title"><img src="img/lava.jpg" id="img3"></h5>
+                <p class="card-text"><h5><strong>LAVA A1500</strong></h5>
+                <p class="card-text"><h5 id="text1">Flat ₹830 off</h5></p>
+                <p class="card-text" id="text2">  Now ₹999</p> 
+              </div>
+          </div>
+          <div class="col">
+            <div class="toggle">
+            </div>
+            <div class="card-body">
+                <h5 class="card-title"><img src="img/sale.jpg" id="adv"></h5>
+              </div>
+          </div>
+
+        </div>
+     </div>   
+        
+ </section>
+
+ <section>
+    <div class="container" >
+        <div class="row">
+            <div class="card-header" id="deal"><b>Books And music Instruments</b> ShopNow!
+            <button type="submit" class="btn2" >View All</button>
+            </div>
+             
+            <div class="col">
+            <div class="card-body">
+                <h5 class="card-title"><img src="img/Harmonium.jpg" id="img3"></h5>
+                <p class="card-text"><h5><strong>Harmoniums</strong></h5>
+                <p class="card-text"><h5 id="text1">Up to 60% Off</h5></p>
+                <p class="card-text" id="text2">Shop Now!</p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card-body">
+                <h5 class="card-title"><img src="img/flutes.jpg" id="img3"></h5>
+                <p class="card-text"><h5><strong>Flutes</strong></h5>
+                <p class="card-text"><h5 id="text1">Up to 80% Off</h5></p>
+                <p class="card-text" id="text2">Shop Now! </p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card-body">
+                <h5 class="card-title"><img src="img/gitar.jpg" id="img3"></h5>
+                <p class="card-text"><h5><strong>Acoustic Guitars</strong></h5>
+                <p class="card-text"><h5 id="text1"> Starting ₹1799 </h5></p>
+                <p class="card-text" id="text2">Juarez,Revel..</p>
+              </div>
+          </div>
+          <div class="col">
+            <div class="card-body">
+                <h5 class="card-title"><img src="img/assessories.jpg" id="img3"></h5>   
+                <p class="card-text"><h5><strong>Musical Accessories</strong></h5>
+                <p class="card-text"><h5 id="text1">Up to 80% Off</h5></p>
+                <p class="card-text" id="text2">Shop Now!</p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card-body">
+                <h5 class="card-title"><img src="img/microphone.jpg" id="img3"></h5>
+                <p class="card-text"><h5><strong>Microphone Accessories</strong></h5>
+                <p class="card-text"><h5 id="text1">Up to 80% Off</h5></p>
+                <p class="card-text" id="text2">Shop now!</p>
+              </div>
+          </div>
+          <div class="col">
+            <div class="card-body">
+                <h5 class="card-title"><img src="img/acoustic.jpeg" id="img3"></h5>
+                <p class="card-text"><h5><strong>Acoustic Guitars</strong></h5>
+                <p class="card-text"><h5 id="text1">Stating ₹1999</h5></p>
+                <p class="card-text" id="text2"> By Revel</p> 
+              </div>
+          </div>
+        </div>
+     </div>         
+ </section>
+<!-- header section end     -->
+    <!-- jqyery cdn link -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</body>
+</html>

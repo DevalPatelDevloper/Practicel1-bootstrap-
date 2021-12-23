@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+:root{
+    --blue:#2980b9;
+}
+#title{
+    margin-left: 250px;
+    font-size: 18px;
+}
+#title2{
+    margin-left: 250px;
+    font-size: 12px;
+}
+.color{
+    color: yellow;
+}
+#search{
+    width: 500px;
+    height: 50px;
+}
+html{
+    font-size: 62.5%;
+}
+#img1{
+    width: 20px;
+    height: 15px;
+}
+#img2{
+    width: 60px;
+    height: 60px;
+}
+#img3{
+    width: 100px;
+    height: 100px;
+}
+#adv{
+    margin-top: -80px;
+    width:110px; 
+    height:200px 
+}
+#text1{
+    color: green;
+}
+#text2{
+    color: gray;
+}
+
+#con1{
+    margin-right: 50px;
+}
+.btn1{
+    background-color: var(--blue);
+    color:white;
+    width: 80px;
+    height: 30px;
+    border: 1 solid var(--blue);
+    border-radius: 2px;
+    margin-left:400px;
+}
+.btn2{
+    background-color: var(--blue);
+    color:white;
+    width: 80px;
+    height: 30px;
+    border: 1 solid var(--blue);
+    border-radius: 2px;
+    margin-left:1000px;
+}
+#box{
+    width: auto;
+    height: 200px;
+    border: 1px solid rgb(168, 166, 166);
+}
+#btn{
+    background-color: rgb(236, 240, 245);
+    color:var(--blue);
+    margin-left: 100px;
+    margin-top: 7px;
+    width: 100px; 
+    height: 30px;
+    
+}
+#more{
+    color: azure;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+#cart{
+    color: azure;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.more{
+    font-size: 12px;
+}
+
+section .container .row #deal{
+    font-size: 18px;
+}
+
+.toggle{
+     top: 350px;
+     right: 230px;
+     width: 25px;
+     height: 70px;
+     background: rgb(242, 248, 242);
+     cursor: pointer;
+     border: 1px solid rgb(245, 239, 239);
+
+}
+.toggle::before{
+    content:'\f054';
+    font-family: fontAwesome;
+    right: 200px;
+    font-size: 26px;
+    color: black;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    line-height: 170px;
+    text-align: center;
+}
+
+
+/* media queries */
+@media (max-width:768px){
+    html{
+        font-size: 55%;
+    }
+    header main #title{
+       text-align: left;
+    }
+    #search{
+        width: 250px;
+    }
+    .toggle{
+        position: hide;
+    }
+    #btn{
+        width: 50px; 
+        height: 20px;
+    }
+}
+@media (max-width:400px){
+
+    header .main{
+        flex-flow: column;
+        padding: 1rem;
+    }
+    header main #title{
+        padding-bottom: 1.5rem;
+    }
+    .toggle{
+       top: 1000px;
+    }
+    
+}

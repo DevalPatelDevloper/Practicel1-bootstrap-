@@ -1,0 +1,41 @@
+h5{
+    background-color:DodgerBlue;
+     text-align:center; 
+     color:white;
+     margin-top: 0px;
+     width: 1000px;
+}
+table{
+   
+}
+#first{
+    background-color: DodgerBlue;
+    color:white;
+    margin-top: 0px;
+    width: 5px;
+}
+tr{
+    align:center;
+}
+#a{
+    width: 900px;
+    font-size: 20px; 
+    text-align: right;
+}
+#b{
+    font-size: 12px;
+    text-align: right;
+    width: 200px;
+    margin-top: 0px;
+}
+#img1{
+    padding-top: 5px;
+    padding-left: 170px;
+}
+#img2{
+    padding-top: 5px;
+    padding-left: 70px;
+}
+.btn{
+    background-color: rgb(17, 36, 36);
+}
